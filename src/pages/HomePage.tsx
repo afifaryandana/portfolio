@@ -3,6 +3,7 @@ import portrait from "../assets/afif-portrait-transparent.png"
 import disbursementImage from "../assets/disbursement-management.png"
 import dashboardImage from "../assets/singgahsini-dashboard.png"
 import ugmResearchImage from "../assets/ugm-research.png"
+import ScrollToHash from "../components/ScrollToHash"
 import SiteHeader, { Arrow } from "../components/SiteHeader"
 import { useLanguage } from "../i18n"
 
@@ -127,6 +128,7 @@ export default function HomePage() {
   return (
     <>
       <SiteHeader />
+      <ScrollToHash />
       <main>
         <section className="home-hero">
           <div className="hero-copy">
