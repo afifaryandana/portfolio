@@ -518,6 +518,18 @@ em {
   border-top: 1px solid var(--line);
 }
 
+.project-secondary .project-card-copy {
+  grid-template-columns: 1fr;
+  gap: 16px;
+  padding-top: 22px;
+}
+
+.project-secondary .project-card-copy > span {
+  grid-column: 1;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
 .project-card--wide .project-card-copy {
   align-content: end;
 }
@@ -1488,7 +1500,7 @@ em {
   }
 
   .project-group-heading--upcoming {
-    margin-top: 95px;
+    margin-top: 40px;
   }
 
   .about-simple-grid {
